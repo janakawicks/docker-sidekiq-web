@@ -1,4 +1,5 @@
 require 'sidekiq'
+require 'sidekiq-scheduler/web'
 
 Sidekiq.configure_client do |config|
     config.redis = { 
